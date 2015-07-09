@@ -1,0 +1,46 @@
+header {
+    color:#FFFFFF;
+    text-align: center;
+    background-color: #000000;
+}
+
+h1{
+    margin: 4px;
+    padding: 5px;
+}
+
+#left{
+    background-color: blue;
+    width: 27.3%;
+
+}
+
+#changefbg{
+    padding: 5px;
+    font-size: 10px;
+
+}
+
+#right{
+    background-color: red;
+    width: 72%;
+    float: right;
+}
+
+#left, #right{
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+footer {
+    margin-top: 4px;
+    display: block;
+    padding: 5px;
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+
+}
