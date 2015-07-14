@@ -2,23 +2,99 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <title>This Is The Beginning</title>
-        <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+        <!-- <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8"> -->
+        <link rel="stylesheet" href="style2.css" media="screen" title="no title" charset="utf-8">
 
     </head>
     <body>
-        <header>
-            <h1 id="header">This is heading</h1>
+        <!-- <nav>
+            <a href="" class="navimg"><img src="images/askfm copy.png" title="This is where you can ask me question, fellas!" /></a>
+            <a href="" class="navimg"><img src="images/facebook copy.png" title="This is where you can see my recent activity, fellas!" /></a>
+            <a href="" class="navimg"><img src="images/twitter copy.png" title="Well..... I'm rarely accessing my Twitter these days, fellas" /></a>
+            <a href="" class="navimg"><img src="images/instagram copy.png" title="This is where you can see my favorite pictures, fellas!" /></a>
+            <a href="" class="navimg"><img src="images/youtube copy.png" title="This is where you can watch my video, fellas!" /></a>
+            <a href="" class="navimg"><img src="images/deviantart copy.png" title="This is where you can see my stupid design, fellas!" /></a>
+
+        </nav>
+        <header id="header">
+            <img src="images/header.png" alt="" />
         </header>
-        <section id="left">
-            Left side
-            <button id="changefbg" type="button" name="changeFooterBG" onclick="changeFooterBG()">
-            Change Footer Background
-            </button>
-        </section>
-        <section id="right">
-            Right side
-        </section>
+        <div class="container">
+          <div id="left" class="col-sm-4">
+            <h3>Left Side</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Lorem ipsum panjang amet, jadi ambil cuma seemprit...</p>
+            <button type="button" class="btn btn-lg btn-primary">Click me please</button>
+          </div>
+          <div id="middle" class="col-sm-4">
+            <h3>Middle</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <button type="button" class="btn btn-lg btn-danger">DANGER!</button>
+          </div>
+          <div id="right" class="col-sm-4">
+            <h3>Right</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <button type="button" class="btn btn-lg btn-success">YEAH!</button>
+          </div>
+        </div>
+      </div>
+  -->
+
+      <div class="container">
+          <div class="row">
+              <nav>
+                  <a href="" class="navimg"><img src="images/askfm.png" title="This is where you can ask me question, fellas!" /></a>
+                  <a href="" class="navimg"><img src="images/facebook.png" title="This is where you can see my recent activity, fellas!" /></a>
+                  <a href="" class="navimg"><img src="images/twitter.png" title="Well..... I'm rarely accessing my Twitter these days, fellas" /></a>
+                  <a href="" class="navimg"><img src="images/instagram.png" title="This is where you can see my favorite pictures, fellas!" /></a>
+                  <a href="" class="navimg"><img src="images/youtube.png" title="This is where you can watch my video, fellas!" /></a>
+                  <a href="" class="navimg"><img src="images/deviantart.png" title="This is where you can see my stupid design, fellas!" /></a>
+
+              </nav>
+            <div id="header">
+              <img src="images/header.png" alt="" />
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+              <div class="left">
+                  <h3>Left Side</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                  <p>Lorem ipsum panjang amet, jadi ambil cuma seemprit...</p>
+                  <button type="button" class="btn btn-lg btn-primary">Click me please</button>
+              </div>
+
+          </div>
+          <div class="col-sm-4">
+              <div class="middle">
+                  <div class="wrapper">
+                      <img src="images/one-piece-square.jpg" alt="" />
+                      <p class="desc"> HAHAHAHAHA </p>
+                  </div>
+
+                  <h3>Middle</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                  <button type="button" class="btn btn-lg btn-danger">DANGER!</button>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="right">
+                  <h3>Right</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                  <button type="button" class="btn btn-lg btn-success">YEAH!</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row content">
+          asdfasdf
+      </div>
+
         <footer id="footer">
             This is Footer, bro!
         </footer>
