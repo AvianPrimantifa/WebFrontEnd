@@ -86,7 +86,29 @@ h1{
 }
 
 .content{
+
     text-align: center;
+    color: $font-color;
+    border-radius: 20px;
+    background-color: rgba(232, 37, 101, 0.5);
+    margin: 10px;
+    padding: 25px;
+    .row{
+        margin: auto;
+        padding: 25px 50px;
+        .inner-content{
+            border-radius: 20px;
+            height: 100%;
+            width: 33.33%;
+            img {
+                width: 100%;
+
+            }
+
+
+        }
+
+    }
 }
 
 footer {
