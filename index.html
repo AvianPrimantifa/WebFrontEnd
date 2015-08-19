@@ -48,25 +48,24 @@
       <div class="container">
           <div class="row">
               <nav>
-                  <a href="" class="navimg"><img src="images/askfm.png" title="This is where you can ask me question, fellas!" /></a>
-                  <a href="" class="navimg"><img src="images/facebook.png" title="This is where you can see my recent activity, fellas!" /></a>
-                  <a href="" class="navimg"><img src="images/twitter.png" title="Well..... I'm rarely accessing my Twitter these days, fellas" /></a>
-                  <a href="" class="navimg"><img src="images/instagram.png" title="This is where you can see my favorite pictures, fellas!" /></a>
-                  <a href="" class="navimg"><img src="images/youtube.png" title="This is where you can watch my video, fellas!" /></a>
-                  <a href="" class="navimg"><img src="images/deviantart.png" title="This is where you can see my stupid design, fellas!" /></a>
+                  <a href="https://en.wikipedia.org/wiki/Kuroko%27s_Basketball" class="navimg"><img src="images/wikipedia.png" title="Wikipedia" /></a>
+                  <a href="https://www.facebook.com/KurokoNoBasuke" class="navimg"><img src="images/facebook.png" title="Facebook" /></a>
+                  <a href="https://twitter.com/kurobas_ina" class="navimg"><img src="images/twitter.png" title="Twitter" /></a>
+                  <a href="https://www.youtube.com/channel/UCIzWKGAxX6pv3PAIVD7mIlA" class="navimg"><img src="images/youtube.png" title="Youtube" /></a>
 
               </nav>
             <div id="header">
-              <img src="images/header.png" alt="" />
+              <img src="images/kuroko-header.png" alt="" />
             </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
               <div class="left">
                   <h3>Left Side</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                  <p>Lorem ipsum panjang amet, jadi ambil cuma seemprit...</p>
-                  <button type="button" class="btn btn-lg btn-primary">Click me please</button>
+                  <p>Dapatkah menjalankan usaha tanpa modal?</p>
+                  <p>Tekan tombol di bawah untuk mendapatkan modal</p>
+                  <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#testModal">Click me please</button>
+
               </div>
 
           </div>
@@ -93,27 +92,37 @@
       </div>
       <div class="content">
           <div class="row">
-              <div class="inner-content col-sm-4">
-                <a href="#">
-                    <img src="images/char/kagami-desc.png" alt="" /> 
-                </a>
+              <div class="pict inner-content col-sm-4" >
+                    <img src="images/char/kagami-desc.png" alt="" class="desc" />
+                    <img src ="images/char/kagami-featured.png" alt="" class="feat" />
+                    <button type="button" class="featbutton btn btn-lg btn-danger">More Details</button>
+                </div>
+              <div class="pict inner-content col-sm-4">
+                <img src="images/char/kise-desc.png" alt="" class="desc" />
+                <img src="images/char/kise-featured.png" alt="" class="feat" />
+                <button type="button" class="featbutton btn btn-lg btn-warning">More Details</button>
               </div>
-              <div class="inner-content col-sm-4">
-                <img src="images/char/kise-desc.png" alt="" />
-              </div>
-              <div class="inner-content col-sm-4">
-                  <img src="images/char/midorima-desc.png" alt="" />
+              <div class="pict inner-content col-sm-4">
+                  <img src="images/char/midorima-desc.png" alt="" class="desc" />
+                  <img src="images/char/midorima-featured.png" alt="" class="feat" />
+                  <button type="button" class="featbutton btn btn-lg btn-success">More Details</button>
               </div>
           </div>
           <div class="row">
-              <div class="inner-content col-sm-4">
-                  <img src="images/char/aomine-desc.png" alt=""/>
+              <div class="pict inner-content col-sm-4">
+                  <img src="images/char/aomine-desc.png" alt="" class="desc"/>
+                  <img src="images/char/aomine-featured.png" alt="" class="feat" />
+                  <button type="button" class="featbutton btn btn-lg btn-primary">More Details</button>
               </div>
-              <div class="inner-content col-sm-4">
-                  <img src="images/char/murasakibara-desc.png" alt="" />
+              <div class="pict inner-content col-sm-4">
+                  <img src="images/char/murasakibara-desc.png" alt="" class="desc" />
+                  <img src="images/char/murasakibara-featured.png" alt="" class="feat" />
+                  <button type="button" class="featbutton btn btn-lg btn-default">More Details</button>
               </div>
-              <div class="inner-content col-sm-4">
-                  <img src="images/char/akashi-desc.png" alt="" />
+              <div class="pict inner-content col-sm-4">
+                  <img src="images/char/akashi-desc.png" alt="" class="desc"/>
+                  <img src="images/char/akashi-featured.png" alt="" class="feat" />
+                  <button type="button" class="featbutton btn btn-lg btn-danger">More Details</button>
               </div>
           </div>
       </div>
@@ -121,6 +130,33 @@
         <footer id="footer">
             This is Footer, bro!
         </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="testModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" name="button" data-dismiss="modal"></button>
+                        <p class="modal-title">
+                            KENA DEH!
+                        </p>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Tuhkan Bener Modalnya Nongol
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" name="button" data-dismiss="modal">Tutup</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
 
 
 

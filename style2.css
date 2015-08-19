@@ -10,16 +10,23 @@ nav {
   width: 100%;
   height: 40px; }
   nav img {
-    height: 100%; }
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px; }
 
 header {
-  color: #FFFFFF;
   text-align: center;
-  position: relative; }
+  position: relative;
+  width: 1000px;
+  height: auto; }
 
 h1 {
   margin: 4px;
   padding: 5px; }
+
+#testModal {
+  color: black;
+  text-align: center; }
 
 .wrapper {
   display: block;
@@ -62,7 +69,7 @@ h1 {
   text-align: center;
   color: #bababa;
   border-radius: 20px;
-  background-color: rgba(232, 37, 101, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
   margin: 10px;
   padding: 25px; }
   .content .row {
@@ -74,6 +81,27 @@ h1 {
       width: 33.33%; }
       .content .row .inner-content img {
         width: 100%; }
+  .content .pict {
+    position: relative; }
+    .content .pict .desc {
+      display: block; }
+    .content .pict .feat {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 0 15px; }
+    .content .pict .btn-default {
+      color: white;
+      background-color: #be22ce;
+      border-color: #a11eaf; }
+    .content .pict .featbutton {
+      position: absolute;
+      display: none;
+      top: 0;
+      left: 0;
+      margin: 110px 110px;
+      opacity: 0.85; }
 
 footer {
   margin-top: 4px;
